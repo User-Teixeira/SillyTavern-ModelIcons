@@ -20,7 +20,7 @@ https://github.com/User-Teixeira/SillyTavern-ModelIcons
 
 Reload SillyTavern after installing. The extension applies to existing messages with stored NanoGPT API and model metadata, as well as new messages. It respects SillyTavern's Model Icons visibility setting.
 
-The replacement icon is 14 × 14 CSS pixels, matching SillyTavern's standard `.icon-svg` height. All five icons use the supplied SVG shapes as masks, so their color follows the timestamp text color in light and dark themes.
+The replacement icon uses SillyTavern's `.icon-svg` sizing and aspect ratio. All five icons use the supplied SVG shapes as masks, so their color follows the timestamp text color in light and dark themes.
 
 ## Logo credits
 
