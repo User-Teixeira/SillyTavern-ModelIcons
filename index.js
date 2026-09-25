@@ -1,4 +1,4 @@
-const brands = ['xiaomi', 'z-ai', 'deepseek', 'moonshotai'];
+const brands = ['xiaomi', 'z-ai', 'deepseek', 'moonshotai', 'minimax'];
 
 function getBrand(title) {
     const match = /^nanogpt\s*-\s*([^\s/]+)\//i.exec(title);
