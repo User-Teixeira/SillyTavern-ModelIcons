@@ -10,7 +10,7 @@ function updateIcons(messages = document.querySelectorAll('.mes')) {
     for (const message of messages) {
         const original = message.querySelector('.timestamp-icon:not(.nanogpt-brand-icon)');
         const replacement = message.querySelector('.nanogpt-brand-icon');
-        const title = original?.getAttribute('title') ?? '';
+        const title = original?.getAttribute('title') ?? original?.querySelector('title')?.textContent ?? '';
         const brand = getBrand(title);
 
         // A swipe may replace the model icon without replacing the message node.
