@@ -4,46 +4,34 @@
 
 .nanogpt-brand-icon {
     display: inline-block;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.nanogpt-brand-icon[data-brand="xiaomi"],
-.nanogpt-brand-icon[data-brand="deepseek"],
-.nanogpt-brand-icon[data-brand="z-ai"],
-.nanogpt-brand-icon[data-brand="moonshotai"],
-.nanogpt-brand-icon[data-brand="minimax"] {
     background-color: currentColor;
-    mask-position: center;
     mask-size: contain;
     mask-repeat: no-repeat;
-    -webkit-mask-position: center;
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
 }
 
 .nanogpt-brand-icon[data-brand="xiaomi"] {
-    mask-image: url("./xiaomi.svg");
-    -webkit-mask-image: url("./xiaomi.svg");
+    mask-image: url("./img/xiaomi.svg");
+    -webkit-mask-image: url("./img/xiaomi.svg");
 }
 
 .nanogpt-brand-icon[data-brand="deepseek"] {
-    mask-image: url("./deepseek.svg");
-    -webkit-mask-image: url("./deepseek.svg");
+    mask-image: url("./img/deepseek.svg");
+    -webkit-mask-image: url("./img/deepseek.svg");
 }
 
 .nanogpt-brand-icon[data-brand="z-ai"] {
-    mask-image: url("./zai.svg");
-    -webkit-mask-image: url("./zai.svg");
+    mask-image: url("./img/zai.svg");
+    -webkit-mask-image: url("./img/zai.svg");
 }
 
 .nanogpt-brand-icon[data-brand="moonshotai"] {
-    mask-image: url("./moonshotai.svg");
-    -webkit-mask-image: url("./moonshotai.svg");
+    mask-image: url("./img/moonshotai.svg");
+    -webkit-mask-image: url("./img/moonshotai.svg");
 }
 
 .nanogpt-brand-icon[data-brand="minimax"] {
-    mask-image: url("./minimax.svg");
-    -webkit-mask-image: url("./minimax.svg");
+    mask-image: url("./img/minimax.svg");
+    -webkit-mask-image: url("./img/minimax.svg");
 }

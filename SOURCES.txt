@@ -1,9 +1,9 @@
 Logo files supplied by the repository owner:
 
-- xiaomi.svg
-- zai.svg
-- deepseek.svg
-- moonshot.svg (stored as moonshotai.svg to match the model prefix)
-- minimax.svg
+- img/xiaomi.svg
+- img/zai.svg
+- img/deepseek.svg
+- moonshot.svg (stored as img/moonshotai.svg to match the model prefix)
+- img/minimax.svg
 
 These vector renditions are used as shape masks; their original fill colors are ignored. The files have not been verified as assets published by the respective companies. The LobeHub MIT license is retained for the Lobe Icons assets.
