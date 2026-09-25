@@ -1,0 +1,44 @@
+.nanogpt-brand-original {
+    display: none !important;
+}
+
+.nanogpt-brand-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    flex: 0 0 14px;
+    aspect-ratio: 1;
+    vertical-align: middle;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nanogpt-brand-icon[data-brand="xiaomi"] {
+    background-image: url("./xiaomi.svg");
+}
+
+.nanogpt-brand-icon[data-brand="deepseek"] {
+    background-image: url("./deepseek.svg");
+}
+
+.nanogpt-brand-icon[data-brand="z-ai"],
+.nanogpt-brand-icon[data-brand="moonshotai"] {
+    background-color: currentColor;
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.nanogpt-brand-icon[data-brand="z-ai"] {
+    mask-image: url("./zai.svg");
+    -webkit-mask-image: url("./zai.svg");
+}
+
+.nanogpt-brand-icon[data-brand="moonshotai"] {
+    mask-image: url("./moonshotai.svg");
+    -webkit-mask-image: url("./moonshotai.svg");
+}

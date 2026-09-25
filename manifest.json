@@ -1,0 +1,10 @@
+{
+  "display_name": "NanoGPT Brand Message Icons",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "Codex",
+  "version": "1.2.0"
+}

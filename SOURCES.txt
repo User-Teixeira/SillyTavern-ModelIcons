@@ -1,0 +1,8 @@
+Logo sources:
+
+- Xiaomi: Simple Icons, https://github.com/simple-icons/simple-icons/blob/develop/icons/xiaomi.svg (CC0-1.0). Orange fill was added for legibility.
+- Z.ai: Lobe Icons, https://github.com/lobehub/lobe-icons/blob/master/packages/static-svg/icons/zai.svg (MIT).
+- DeepSeek: Lobe Icons, https://github.com/lobehub/lobe-icons/blob/master/packages/static-svg/icons/deepseek-color.svg (MIT).
+- Moonshot AI: Lobe Icons, https://github.com/lobehub/lobe-icons/blob/master/packages/static-svg/icons/moonshot.svg (MIT).
+
+These are third-party vector renditions of brand marks. They have not been verified as assets published by the respective companies.
